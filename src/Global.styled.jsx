@@ -11,7 +11,7 @@ export const GlobalStyle = createGlobalStyle`
     font-weight: 400;
     line-height: 1.71;
     letter-spacing: 0.3px;
-    background-color: rgb(249, 250, 255);
+    background-color: ${({ theme }) => theme.colors.bg}
   }
 
   a {
